@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+}
+
+body{
+  font-family:"New Time Roman", serif;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+.about-section{
+	padding:40px;
+	background-color: #e0e0e0;
+	color: black;
+}
+
+.about-section img{
+  float: right;
+  padding: 20px;
+}
+
+.jumbotron{
+  margin-top: 70px;
+}
+
+.jumbotron p{
+  font-size: 16px;
+}
+
+h2{
+  text-align: center;
+  padding: 20px;
+}
+
+.contact-section{
+  padding:40px;
+  background-color: #222;
+  background-image: url(https://blackrockdigital.github.io/startbootstrap-agency/img/map-image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  color:white;
+}
+
+#char a{
+  font-size: 20px;
+}
+
+#stat{
+  text-align: center;
+  font-size: 18px;
+  font-family: Arial;
+
+}
+
+button[type="submit"]{
+  color: #fff;
+    background-color: #fed136;
+    border-color: #fed136;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 20px 40px;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/*footer*/
+
+footer{
+  background-color: white;
+  text-align: center;
+  padding: 25px 0;
+}
+
+footer ul.list-inline{
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+footer ul.list-inline li a{
+  font-size: 12px;
+  line-height: 40px;
+  font-family: cursive;
+  color: #fed136;
+  text-transform: uppercase;
+}
+
+footer ul.list-inline li a:hover{
+  color: #b5962c;
+}
+
+footer ul.list-inline li a:active{
+  color: #b5962c;
+}
+
+.copyright{
+  font-family: cruiser;
+  line-height: 40px;
+  color: black;
+  font-size: 12px;
+}
