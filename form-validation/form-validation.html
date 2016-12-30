@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src='script.js'></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<form class="col-lg-12 col-md-12 col-sm-12 col-xs-12 query_form" method="post">
+ <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 heading">
+<span>
+  <h3>Javascript Form Validation</h3>
+  <h4>Send us your Query</h4>
+</span>
+</div>
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 tour_details">
+     
+      <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 Select_destination">
+        <label class="col-lg-6 col-md-6 col-sm-6 col-xs-12">Select your Destination : </label>
+	       <select class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="destination">
+	          <option value="0">--Select--</option>
+	          <option value="India">India</option>
+	          <option value="Nepal">Nepal</option>
+	          <option value="Sri Lanka">Sri Lanka</option>
+	          <option value="Bhutan">Bhutan</option>
+	          <option value="Thailand">Thailand</option>
+	          <option value="Dubai">Dubai</option>
+	          <option value="Maldives">Maldives</option>  
+	      </select>
+      <span></span>
+      </div>
+
+      <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 Departure_date">
+        <label class="col-lg-5 col-md-6 col-sm-6 col-xs-12">Your Prefered Departure Date : </label>
+               <select id="Date">
+                 <option value="0">--Day--</option>
+                 <option value="1">1</option>
+                 <option value="2">2</option>
+                 <option value="3">3</option>
+                 <option value="4">4</option>
+                 <option value="5">5</option>
+                 <option value="6">6</option>
+                 <option value="7">7</option>
+                 <option value="8">8</option>
+                 <option value="9">9</option>
+                 <option value="10">10</option>
+                 <option value="11">11</option>
+                 <option value="12">12</option>
+                 <option value="13">13</option>
+                 <option value="14">14</option>
+                 <option value="15">15</option>
+                 <option value="16">16</option>
+                 <option value="17">17</option>
+                 <option value="18">18</option>
+                 <option value="19">19</option>
+                 <option value="20">20</option>
+                 <option value="21">21</option>
+                 <option value="22">22</option>
+                 <option value="23">23</option>
+                 <option value="24">24</option>
+                 <option value="25">25</option>
+                 <option value="26">26</option>
+                 <option value="27">27</option>
+                 <option value="28">28</option>
+                 <option value="29">29</option>
+                 <option value="30">30</option>
+                 <option value="31">31</option>
+            </select>
+             <select id="Month">
+              <option value="0">--Month--</option>
+               <option value="January">January</option>
+               <option value="February">February</option>
+               <option value="March">March</option>
+               <option value="April">April</option>
+               <option value="May">May</option>
+               <option value="June">June</option>
+               <option value="July">July</option>
+               <option value="August">August</option>
+               <option value="September">September</option>
+               <option value="October">October</option>
+               <option value="November">November</option>
+               <option value="December">December</option>
+            </select>
+           <select id="Year">
+            <option value="0">--Year--</option>
+            <option value="2014">2014</option>
+            <option value="2015">2015</option>
+          </select>
+       <span></span>
+      </div>
+
+      <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 Length_of_trip">
+         <label class="col-lg-6 col-md-6 col-sm-6 col-xs-12">Length of your trip (In days) :  </label>
+        <input type="text" class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="len_of_trip">
+        <span></span>
+      </div>
+
+       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Preferred_hotel">
+          <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 padding_reset">
+              <label class="col-lg-6 col-md-6 col-sm-6 col-xs-12">Preferred Category of Hotel : </label>
+                <span class="col-lg-6 col-md-6 col-sm-6 col-xs-12 padding_reset">
+                    <input type="radio" name="category" value="3 Star"><span>3 Star</span>
+                    <input type="radio" value="4 Star" name="category"><span>4 Star</span>
+                    <input type="radio" value="5 Star" name="category"><span>5 Star</span> 
+                </span>  
+          </div>    
+      </div>
+
+      <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 no_of_adult">
+         <label class="col-lg-6 col-md-6 col-sm-6 col-xs-12">No. of Adult Passengers : </label>
+        <input type="text" class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="no_of_adult">
+        <span></span>
+      </div>
+
+      <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 no_of_child">
+        <label class="col-lg-6 col-md-6 col-sm-6 col-xs-12">No. of Child Passengers : </label>
+        <input type="text" class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="no_of_child">
+        <span></span>
+      </div>
+
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 cities_to_visit">
+         <label>Describe what cities or countries you would like to visit, activities you are interested in, things you want your trip to include : </label>
+		</div>
+
+  		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 cities_to_visit">
+        <textarea type="text" class="col-lg-12 col-md-12 col-sm-12 col-xs-12"></textarea>
+      </div>
+
+      
+      </div>
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Personal_details">
+      <span class="col-lg-12 col-md-12 col-sm-12 col-xs-12 sub_heading">Personal Details</span>
+        
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+          <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 padding_reset">
+              <label class="col-lg-6 col-md-6 col-sm-6 col-xs-12">Title : </label>
+                <span class="col-lg-6 col-md-6 col-sm-6 col-xs-12 padding_reset">
+                  <select>
+                    <option>Mr.</option>
+                    <option>Ms.</option>
+                    <option>Mrs.</option>
+                  </select>
+                </span>  
+          </div>    
+      </div>
+
+       <!--  <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 First_name">
+          <label class="col-lg-6 col-md-6 col-sm-6 col-xs-12">First Name : </label>
+          <input type="text" class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="fname"><span class="validate"></span>
+        </div> -->
+       <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 First_name">
+          <label class="col-lg-6 col-md-6 col-sm-6 col-xs-12">First Name : </label>
+          <input type="text" class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="fname">
+          <span></span>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 Last_name">
+          <label class="col-lg-6 col-md-6 col-sm-6 col-xs-12">Last Name : </label>
+          <input type="text" class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="lname">
+          <span></span>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 Phone_no_container">
+          <label class="col-lg-6 col-md-6 col-sm-6 col-xs-12">Phone no : </label>
+          <input type="text" class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="phone_no">
+          <span></span>
+        </div>
+  <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 Mobno">
+          <label class="col-lg-6 col-md-6 col-sm-6 col-xs-12">Mob no (+Country Code) : </label>
+          <input type="text" class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="mob_no">
+          <span></span>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 Agency_name">
+          <label class="col-lg-6 col-md-6 col-sm-6 col-xs-12">Agency Name(If Applicable) : </label>
+          <input type="text" class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 Address">
+          <label class="col-lg-6 col-md-6 col-sm-6 col-xs-12">Address : </label>
+          <input type="text" class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 CityName">
+          <label class="col-lg-6 col-md-6 col-sm-6 col-xs-12">City  :</label>
+          <input type="text" class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="city">
+          <span></span>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 state">
+          <label class="col-lg-6 col-md-6 col-sm-6 col-xs-12">State/Province : </label>
+          <input type="text" class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 ZIP_no">
+          <label class="col-lg-6 col-md-6 col-sm-6 col-xs-12">ZIP : </label>
+          <input type="text" class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="zip">
+          <span></span>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 CountryName">
+          <label class="col-lg-6 col-md-6 col-sm-6 col-xs-12">Country : </label>
+          <input type="text" class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="country">
+          <span></span>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 Email1">
+          <label class="col-lg-6 col-md-6 col-sm-6 col-xs-12">E-mail-1:</label>
+          <input type="text" class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="e_mail1">
+          <span></span>
+        </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 Email2">
+          <label class="col-lg-6 col-md-6 col-sm-6 col-xs-12">E-mail-2:</label>
+          <input type="text" class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="e_mail2">
+          <span></span>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 refer_a_frnd">
+        <label class="col-lg-6 col-md-6 col-sm-6 col-xs-12">Would you Like to Refer a friend : </label>
+        <input type="text" class="col-lg-6 col-md-6 col-sm-6 col-xs-12" placeholder=" Email / Contact No.">
+      </div>
+      <div class=" col-lg-12 col-md-12 col-sm-12 col-xs-12 submit">
+         <input type='Submit' name='Submit' value='Submit' onclick = "return chk_valid();"/>
+        <input type="button" value="Refresh">
+      </div>
+    </form>
+
+</body>
+</html>
