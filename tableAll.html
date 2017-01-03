@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 3 tag meta dibawah harus diletakkan di awal tag <head>, jika memerlukan tag tambahan,-->
+    <!-- kamu bisa menuliskannya setelah 3 tag meta tersebut -->
+
+    <!-- Charset untuk memberi tahu browser character encoding yang digunakan -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Meta untuk responsive layout -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Web Title -->
+    <title>Bootstrap DokiDoki</title>
+    <!-- Bootstrap CSS CDN dipanggil disini -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- HTML5 support untuk Internet Explorer 8 -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style type="text/css">
+        body
+        {
+            padding:20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Normal Table</h1><hr>
+        <table>
+            <tr>
+                <td>Hai</td>
+                <td>Ini Tabel</td>
+            </tr>
+            <tr>
+                <td>Ini Baris 2</td>
+                <td>Ini Masih Tabel</td>
+            </tr>
+        </table>
+    </div>
+    <hr>
+
+<!-- BASIC TABLE -->
+    <div class="container">
+        <h1>Basic Table</h1><hr>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama</th>
+                    <th>E-mail</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>1</th>
+                    <td>DokiDoki</td>
+                    <td>doki@saungkode.com</td>
+                    <td>Mahasiswa Fiktif</td>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <td>Miko</td>
+                    <td>miko@saungkode.com</td>
+                    <td>Karakter Fiktif</td>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <td>Sherly</td>
+                    <td>sherly@saungkode.com</td>
+                    <td>Karakter Fiktif</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <hr>
+
+<!-- STRIPED ROWS TABLE -->
+    <div class="container">
+        <h1>Striped Rows Table</h1><hr>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama</th>
+                    <th>E-mail</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>1</th>
+                    <td>DokiDoki</td>
+                    <td>doki@saungkode.com</td>
+                    <td>Mahasiswa Fiktif</td>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <td>Miko</td>
+                    <td>miko@saungkode.com</td>
+                    <td>Karakter Fiktif</td>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <td>Sherly</td>
+                    <td>sherly@saungkode.com</td>
+                    <td>Karakter Fiktif</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <hr>
+
+<!-- BORDERED TABLE -->
+    <div class="container">
+        <h1>Bordered Table</h1><hr>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama</th>
+                    <th>E-mail</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>1</th>
+                    <td>DokiDoki</td>
+                    <td>doki@saungkode.com</td>
+                    <td>Mahasiswa Fiktif</td>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <td>Miko</td>
+                    <td>miko@saungkode.com</td>
+                    <td>Karakter Fiktif</td>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <td>Sherly</td>
+                    <td>sherly@saungkode.com</td>
+                    <td>Karakter Fiktif</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <hr>
+
+<!-- HOVER ROWS TABLE -->
+    <div class="container">
+        <h1>Hover Rows Table</h1><hr>
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama</th>
+                    <th>E-mail</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>1</th>
+                    <td>DokiDoki</td>
+                    <td>doki@saungkode.com</td>
+                    <td>Mahasiswa Fiktif</td>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <td>Miko</td>
+                    <td>miko@saungkode.com</td>
+                    <td>Karakter Fiktif</td>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <td>Sherly</td>
+                    <td>sherly@saungkode.com</td>
+                    <td>Karakter Fiktif</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <hr>
+
+<!-- CONDENSED TABLE -->
+    <div class="container">
+        <h1>Condensed Table</h1><hr>
+        <table class="table table-condensed">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama</th>
+                    <th>E-mail</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>1</th>
+                    <td>DokiDoki</td>
+                    <td>doki@saungkode.com</td>
+                    <td>Mahasiswa Fiktif</td>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <td>Miko</td>
+                    <td>miko@saungkode.com</td>
+                    <td>Karakter Fiktif</td>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <td>Sherly</td>
+                    <td>sherly@saungkode.com</td>
+                    <td>Karakter Fiktif</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <hr>
+
+<!-- CONTEXTUAL CLASS TABLE -->
+    <div class="container">
+        <h1>Contextual Class Table</h1><hr>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama</th>
+                    <th>E-mail</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="active">
+                    <th>1</th>
+                    <td>DokiDoki</td>
+                    <td>doki@saungkode.com</td>
+                    <td class="success">Mahasiswa Fiktif</td>
+                </tr>
+                <tr>
+                    <th class="info">2</th>
+                    <td>Miko</td>
+                    <td>miko@saungkode.com</td>
+                    <td class="warning">Karakter Fiktif</td>
+                </tr>
+                <tr class="danger">
+                    <th>3</th>
+                    <td>Sherly</td>
+                    <td>sherly@saungkode.com</td>
+                    <td>Karakter Fiktif</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <hr>
+
+<!-- RESPONSIVE TABLE -->
+    <div class="container">
+        <h1>Responsive Table (Before)</h1><hr>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama</th>
+                    <th>E-mail</th>
+                    <th>Status</th>
+                    <th>No HP</th>
+                    <th>Alamat</th>
+                    <th>Website</th>
+                    <th>Hobi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>1</th>
+                    <td>DokiDoki</td>
+                    <td>doki@saungkode.com</td>
+                    <td>Mahasiswa Fiktif</td>
+                    <td>081-XXX-XXX-XXX</td>
+                    <td>Bandung</td>
+                    <td>http://saungkode.com</td>
+                    <td>Membuat Tutorial Pemrograman</td>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <td>Miko</td>
+                    <td>miko@saungkode.com</td>
+                    <td>Karakter Fiktif</td>
+                    <td>081-XXX-XXX-XXX</td>
+                    <td>Bandung</td>
+                    <td>http://toprakdg.com</td>
+                    <td>Memencet Jerawat</td>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <td>Sherly</td>
+                    <td>sherly@saungkode.com</td>
+                    <td>Karakter Fiktif</td>
+                    <td>081-XXX-XXX-XXX</td>
+                    <td>Bandung</td>
+                    <td>http://saungkode.com</td>
+                    <td>Memencet Jerawat</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <hr>
+    
+    <div class="container">
+        <h1>Responsive Table (After)</h1><hr>
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Nama</th>
+                        <th>E-mail</th>
+                        <th>Status</th>
+                        <th>No HP</th>
+                        <th>Alamat</th>
+                        <th>Website</th>
+                        <th>Hobi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>1</th>
+                        <td>DokiDoki</td>
+                        <td>doki@saungkode.com</td>
+                        <td>Mahasiswa Fiktif</td>
+                        <td>081-XXX-XXX-XXX</td>
+                        <td>Bandung</td>
+                        <td>http://saungkode.com</td>
+                        <td>Membuat Tutorial Pemrograman</td>
+                    </tr>
+                    <tr>
+                        <th>2</th>
+                        <td>Miko</td>
+                        <td>miko@saungkode.com</td>
+                        <td>Karakter Fiktif</td>
+                        <td>081-XXX-XXX-XXX</td>
+                        <td>Bandung</td>
+                        <td>http://toprakdg.com</td>
+                        <td>Memencet Jerawat</td>
+                    </tr>
+                    <tr>
+                        <th>3</th>
+                        <td>Sherly</td>
+                        <td>sherly@saungkode.com</td>
+                        <td>Karakter Fiktif</td>
+                        <td>081-XXX-XXX-XXX</td>
+                        <td>Bandung</td>
+                        <td>http://saungkode.com</td>
+                        <td>Memencet Jerawat</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <hr>
+    
+
+
+    <!-- Jquery dipanggil disini -->
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <!-- Bootstrap Javascript dipanggil disini -->
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
+
+</html>
